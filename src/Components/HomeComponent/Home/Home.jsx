@@ -1,6 +1,7 @@
 import Navbar from "../Navbar/Navbar";
 import Banner from "./Banner/Banner";
 import ConsultingCourse from "./ConsultingCourse/ConsultingCourse";
+import Contact from "./Contact/Contact";
 import LearnHome from "./LearnHome/LearnHome";
 import MeetSection from "./MeetSection/MeetSection";
 import NewspaperShow from "./NewspaperShow/NewspaperShow";
@@ -24,6 +25,7 @@ const Home = () => {
             <MeetSection></MeetSection>
             <SuccessStories></SuccessStories>
             <WhyChoose></WhyChoose>
+            <Contact></Contact>
         </section>
     );
 };
