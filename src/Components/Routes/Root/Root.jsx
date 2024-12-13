@@ -1,8 +1,14 @@
+import { Helmet } from "react-helmet";
+import { Outlet } from "react-router";
+
 const Root = () => {
     return (
-        <div>
-            this is home
-        </div>
+        <section>
+            <Helmet>
+                <title>Shahadad - Home</title>
+            </Helmet>
+            <Outlet></Outlet>
+        </section>
     );
 };
 
