@@ -1,7 +1,11 @@
+import Navbar from "../Navbar/Navbar";
+import Banner from "./Banner/Banner";
+
 const Home = () => {
     return (
         <section>
-            This is home
+            <Navbar></Navbar>
+            <Banner></Banner>
         </section>
     );
 };
