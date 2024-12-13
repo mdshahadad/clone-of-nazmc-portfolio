@@ -1,0 +1,20 @@
+.bg-image {
+    background-image: url('https://i.postimg.cc/8Pnzzw9k/team-bg-scaled.webp');
+    background-repeat: no-repeat;
+    background-size: 1900px;
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+    .bg-image{
+        background-size: 1440px;
+        background-position: 0px 80px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .bg-image{
+        background-size: 1020px;
+        background-position: 0px 95px;
+    }
+}

@@ -5,7 +5,7 @@ import { PiGraduationCap } from 'react-icons/pi';
 
 const WaysTohelp = () => {
     return (
-        <section className='max-w-5xl mx-auto'>
+        <section className='max-w-5xl mx-auto lg:px-4'>
             <div className='flex justify-between gap-8 items-center'>
                 <div className='flex gap-4'>
                     <img className='w-36' src="https://nazmc.com/wp-content/uploads/2023/12/2-450x634.webp" alt="" />

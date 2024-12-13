@@ -1,6 +1,6 @@
 const WelcomeNote = () => {
     return (
-        <section className="flex justify-center gap-4 max-w-5xl mx-auto py-24">
+        <section className="flex justify-center gap-4 max-w-5xl mx-auto py-24 lg:px-3">
             <div className="w-1/2">
                 <img className="rounded-lg" src="https://nazmc.com/wp-content/uploads/2024/06/office.webp" alt="" />
             </div>

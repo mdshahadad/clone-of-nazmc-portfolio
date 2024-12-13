@@ -14,7 +14,7 @@ const Navbar = () => {
     const navbarClasses = ({ isActive }) => isActive ? "text-white" : ""
 
     return (
-        <nav className="py-4">
+        <nav className="py-4 lg:px-8">
             <div className="bg-base-100 xl:px-24">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
