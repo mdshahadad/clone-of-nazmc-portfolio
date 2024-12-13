@@ -64,11 +64,11 @@ const Navbar = () => {
                                     <li key={index} className="relative group">
                                         {/* Parent Menu Item */}
                                         <NavLink
-                                            href={nav.link}
+                                            to={nav?.link}
                                             className="text-gray-800 font-medium hover:text-red-500 flex items-center gap-1"
                                         >
-                                            {nav.menu}
-                                            {nav.icon && <span>{nav.icon}</span>}
+                                            {nav?.menu}
+                                            {nav?.icon && <span>{nav?.icon}</span>}
                                         </NavLink>
 
                                         {/* Dropdown Menu */}
@@ -77,7 +77,7 @@ const Navbar = () => {
                                                 {nav.submenu.map((subItem, subIndex) => (
                                                     <li key={subIndex}>
                                                         <NavLink
-                                                            href={subItem.link}
+                                                            to={subItem.link}
                                                             className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-red-500"
                                                         >
                                                             {subItem.menu}

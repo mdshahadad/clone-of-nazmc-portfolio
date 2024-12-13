@@ -14,14 +14,15 @@ import WhyChoose from "./WhyChoose/WhyChoose";
 const Home = () => {
     return (
         <section>
-            <Navbar></Navbar>
             <Banner></Banner>
             <WelcomeNote></WelcomeNote>
             <WaysTohelp></WaysTohelp>
             <NewspaperShow></NewspaperShow>
             <ShowedUp></ShowedUp>
             <ConsultingCourse></ConsultingCourse>
-            <LearnHome></LearnHome>
+            <div className="bg-[#202839]">
+                <LearnHome></LearnHome>
+            </div>
             <MeetSection></MeetSection>
             <SuccessStories></SuccessStories>
             <WhyChoose></WhyChoose>

@@ -3,7 +3,7 @@ import LearnCard from "./LearnCard";
 
 const LearnHome = () => {
     return (
-        <section className='bg-[#202839] py-20'>
+        <section className='py-20'>
             <div className='flex justify-between items-center 2xl:px-[350px]
              xl:px-12 px-5 pb-16'>
                 <div className='text-white space-y-4'>
