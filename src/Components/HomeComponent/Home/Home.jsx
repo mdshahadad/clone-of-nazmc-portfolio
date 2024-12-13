@@ -5,8 +5,10 @@ import LearnHome from "./LearnHome/LearnHome";
 import MeetSection from "./MeetSection/MeetSection";
 import NewspaperShow from "./NewspaperShow/NewspaperShow";
 import ShowedUp from "./ShowedUp/ShowedUp";
+import SuccessStories from "./SuccessStories/SuccessStories";
 import WaysTohelp from "./WaysToHelp/WaysTohelp";
 import WelcomeNote from "./WelcomeNote/WelcomeNote";
+import WhyChoose from "./WhyChoose/WhyChoose";
 
 const Home = () => {
     return (
@@ -20,6 +22,8 @@ const Home = () => {
             <ConsultingCourse></ConsultingCourse>
             <LearnHome></LearnHome>
             <MeetSection></MeetSection>
+            <SuccessStories></SuccessStories>
+            <WhyChoose></WhyChoose>
         </section>
     );
 };

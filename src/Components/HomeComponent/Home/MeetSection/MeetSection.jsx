@@ -5,7 +5,7 @@ const MeetSection = () => {
         <section className='meet-image my-16 h-[1200px] relative'>
             <div className='px-96'>
                 <div className="flex justify-center mb-8">
-                    <h2 className="text-[#242f3e] font-bold text-5xl text-center my-20">Meet <span className='text-red-500'>Shahadad</span> Hossain - <br className="xl:block lg:hidden" /> </h2>
+                    <h2 className="text-[#242f3e] font-bold text-5xl text-center my-20">Meet <span className='text-red-500'>Shahadad</span> Hossain - </h2>
                 </div>
                 <div className='flex items-start justify-between'>
                     <div>
