@@ -1,5 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import Banner from "./Banner/Banner";
+import WaysTohelp from "./WaysToHelp/WaysTohelp";
 import WelcomeNote from "./WelcomeNote/WelcomeNote";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner></Banner>
             <WelcomeNote></WelcomeNote>
+            <WaysTohelp></WaysTohelp>
         </section>
     );
 };
