@@ -2,6 +2,7 @@ import Navbar from "../Navbar/Navbar";
 import Banner from "./Banner/Banner";
 import ConsultingCourse from "./ConsultingCourse/ConsultingCourse";
 import LearnHome from "./LearnHome/LearnHome";
+import MeetSection from "./MeetSection/MeetSection";
 import NewspaperShow from "./NewspaperShow/NewspaperShow";
 import ShowedUp from "./ShowedUp/ShowedUp";
 import WaysTohelp from "./WaysToHelp/WaysTohelp";
@@ -18,6 +19,7 @@ const Home = () => {
             <ShowedUp></ShowedUp>
             <ConsultingCourse></ConsultingCourse>
             <LearnHome></LearnHome>
+            <MeetSection></MeetSection>
         </section>
     );
 };

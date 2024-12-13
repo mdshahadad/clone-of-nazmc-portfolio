@@ -4,8 +4,8 @@ import LearnCard from "./LearnCard";
 const LearnHome = () => {
     return (
         <section className='bg-[#202839] py-20'>
-            <div className='flex justify-between items-center 2xl:px-72
-             xl:px-12 px-5 pb-8'>
+            <div className='flex justify-between items-center 2xl:px-[350px]
+             xl:px-12 px-5 pb-16'>
                 <div className='text-white space-y-4'>
                     <h2 className='2xl:text-5xl xl:text-4xl lg:text-3xl font-bold'>Courses, Books And Trainings</h2>
                     <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, distinctio?</p>
