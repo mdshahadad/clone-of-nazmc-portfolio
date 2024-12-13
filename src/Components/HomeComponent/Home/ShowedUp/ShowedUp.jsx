@@ -1,6 +1,6 @@
 const ShowedUp = () => {
     return (
-        <section className="max-w-6xl mx-auto">
+        <section className="max-w-6xl mx-auto pb-28">
             <div className="flex justify-center mb-8">
                 <h2 className="text-[#242f3e] font-bold text-4xl text-center">Developing Knowledge And Tools For <br className="xl:block lg:hidden" /> Bangladesh On a Single Platform.</h2>
             </div>

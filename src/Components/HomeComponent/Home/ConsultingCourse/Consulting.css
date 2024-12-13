@@ -1,0 +1,4 @@
+.consulting_gradient{
+    background: rgb(206,40,71);
+    background: linear-gradient(120deg, rgba(206,40,71,1) 0%, rgba(146,40,66,1) 50%, rgba(80,40,61,1) 100%);
+}
