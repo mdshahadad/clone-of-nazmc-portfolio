@@ -3,13 +3,14 @@ import LearnCard from "../../HomeComponent/Home/LearnHome/LearnCard";
 import LearnHome from "../../HomeComponent/Home/LearnHome/LearnHome";
 import NewspaperShow from "../../HomeComponent/Home/NewspaperShow/NewspaperShow";
 import LearnBanner from "../LearnBanner/LearnBanner";
+import ElevateMarketing from "../ElevateMarketing/ElevateMarketing";
 
 const Learn = () => {
     return (
-        <section>
+        <section className="pt-16">
             <LearnBanner></LearnBanner>
             <NewspaperShow></NewspaperShow>
-            <div id="#books">
+            <div id="#books" className="pb-20">
                 <div className='flex justify-between items-center 2xl:px-[350px]
              xl:px-12 px-5 pb-16'>
                     <div className='text-[#202839] space-y-4'>
@@ -25,6 +26,7 @@ const Learn = () => {
                 </div>
                 <LearnCard></LearnCard>
             </div>
+            <ElevateMarketing></ElevateMarketing>
         </section>
     );
 };

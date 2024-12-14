@@ -49,7 +49,7 @@ const Navbar = () => {
     const navbarClasses = ({ isActive }) => isActive ? "text-white" : ""
 
     return (
-        <nav className="py-4 lg:px-8">
+        <nav className="py-4 lg:px-8 shadow-md">
             <div className="bg-base-100 xl:px-24">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
@@ -67,8 +67,8 @@ const Navbar = () => {
                                             to={nav?.link}
                                             className="text-gray-800 font-medium hover:text-red-500 flex items-center gap-1"
                                         >
-                                            {nav?.menu}
-                                            {nav?.icon && <span>{nav?.icon}</span>}
+                                            <h3 className="flex items-center font-semibold text-lg">{nav?.menu}
+                                                {nav?.icon && <span className="mt-1 ml-1">{nav?.icon}</span>}</h3>
                                         </NavLink>
 
                                         {/* Dropdown Menu */}
@@ -114,12 +114,16 @@ const Navbar = () => {
                                 <PiShoppingCartLight className="text-2xl cursor-pointer" />
                             </div>
                             <div className="flex items-center gap-10">
-                                <button className="text-red-600 text-lg font-semibold">
-                                    <Link>SignUp</Link>
-                                </button>
-                                <button className="border-[1px] px-7 py-2 rounded-md border-black">
-                                    <Link>Login</Link>
-                                </button>
+                                <Link to={'/signup'}>
+                                    <button className="text-red-600 text-lg font-semibold">
+                                        SignUp
+                                    </button>
+                                </Link>
+                                <Link to={'/login'}>
+                                    <button className="border-[1px] px-7 py-2 rounded-md border-black">
+                                        Login
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
