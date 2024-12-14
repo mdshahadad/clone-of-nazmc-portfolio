@@ -1,8 +1,10 @@
+import ConsultingBanner from "../ConsultingBanner/ConsultingBanner";
+
 const Consulting = () => {
     return (
-        <div>
-            
-        </div>
+        <section>
+            <ConsultingBanner></ConsultingBanner>
+        </section>
     );
 };
 
