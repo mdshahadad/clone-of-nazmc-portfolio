@@ -6,6 +6,7 @@ import { useState } from "react";
 import { IoCall } from "react-icons/io5";
 import { FaGraduationCap, FaUserClock } from "react-icons/fa";
 import { FiLogIn } from "react-icons/fi";
+import { GoHome } from "react-icons/go";
 
 const Navbar = () => {
     const [openClose, setOpenClose] = useState(false);
@@ -161,8 +162,8 @@ const Navbar = () => {
             </nav>
 
             {/* Phone Responsive */}
-            <nav className=" bg-white w-full">
-                <div className="flex justify-between px-5 py-4">
+            <nav className="bg-white w-full lg:hidden">
+                <div className="flex justify-between px-5 py-4 shadow-md">
                     <div className="flex">
                         <Link to={"/"} className="font-bold text-gray-500 text-3xl">Shahadad.</Link>
                     </div>
@@ -175,33 +176,40 @@ const Navbar = () => {
                     <div className="flex justify-around">
                         <div onClick={handleShoppingCart}>
                             <div className="flex flex-col justify-center items-center">
-                                <PiShoppingCartLight className="text-4xl cursor-pointer" />
+                                <PiShoppingCartLight className="text-3xl cursor-pointer" />
                                 <p>Cart</p>
                             </div>
                         </div>
                         <div>
                             <Link to={"/consulting"}>
                                 <div className="flex flex-col justify-center items-center">
-                                    <FaUserClock className="text-4xl cursor-pointer" />
+                                    <FaUserClock className="text-3xl cursor-pointer" />
                                     <p>Consulting</p>
                                 </div>
                             </Link>
                         </div>
                         <div>
 
-                            <Link to={"/consulting"}>
+                            <Link to={"/learn"}>
                                 <div className="flex flex-col justify-center items-center">
-                                    <FaGraduationCap className="text-4xl cursor-pointer" />
+                                    <FaGraduationCap className="text-3xl cursor-pointer" />
                                     <p>Course</p>
                                 </div>
                             </Link>
                         </div>
                         <div>
-
                             <Link to={"/consulting"}>
                                 <div className="flex flex-col justify-center items-center">
-                                    <FiLogIn className="text-4xl cursor-pointer" />
+                                    <FiLogIn className="text-3xl cursor-pointer" />
                                     <p>Login</p>
+                                </div>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to={"/"}>
+                                <div className="flex flex-col justify-center items-center">
+                                    <GoHome className="text-3xl cursor-pointer" />
+                                    <p>Home</p>
                                 </div>
                             </Link>
                         </div>

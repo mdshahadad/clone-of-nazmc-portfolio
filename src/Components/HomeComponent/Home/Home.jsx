@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <section>
             <Banner></Banner>
-            {/* <WelcomeNote></WelcomeNote>
+            <WelcomeNote></WelcomeNote>
             <WaysTohelp></WaysTohelp>
             <NewspaperShow></NewspaperShow>
             <ShowedUp></ShowedUp>
@@ -23,7 +23,7 @@ const Home = () => {
                 <LearnHome></LearnHome>
             </div>
             <MeetSection></MeetSection>
-            <SuccessStories></SuccessStories>
+            {/* <SuccessStories></SuccessStories>
             <WhyChoose></WhyChoose>
             <Contact></Contact> */}
         </section>

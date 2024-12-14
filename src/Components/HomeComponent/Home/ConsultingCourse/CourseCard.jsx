@@ -5,7 +5,7 @@ import { PiClockCountdownFill } from 'react-icons/pi';
 const CourseCard = () => {
     return (
         <section className='2xl:px-72 xl:px-12 px-5'>
-            <div className='grid grid-cols-4 gap-5'>
+            <div className='grid lg:grid-cols-4 gap-5'>
                 <div className='bg-white rounded-lg'>
                     <img className='rounded-lg  xl:h-52 lg:h-40' src="https://nazmc.com/wp-content/uploads/2024/12/marketing-audit-and-strategy.webp" alt="" />
                     <div className='px-4 py-8'>

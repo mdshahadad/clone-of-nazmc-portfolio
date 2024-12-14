@@ -26,7 +26,7 @@ const BannerImage = () => {
                     </div>
                 </div>
             </div>
-            <div className="lg:hidden block absolute -bottom-48 space-y-4">
+            <div className="lg:hidden block absolute -bottom-48 space-y-4 mx-2">
                 <p className="xl:text-xl lg:text-lg lg:block text-white text-center text-base">Get More Customers, Increase Your Revenue, and Advance Your <br className="lg:block hidden" /> Marketing Growth</p>
                 <div className="flex justify-center">
                     <div className="lg:flex gap-4">

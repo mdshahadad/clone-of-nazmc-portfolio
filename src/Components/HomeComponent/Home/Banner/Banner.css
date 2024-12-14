@@ -19,6 +19,13 @@
     }
 }
 
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    .bg-image {
+        background-size: 800px;
+        background-position: -370px 150px;
+    }
+}
+
 @media only screen and (min-width: 321px) and (max-width: 375px) {
     .bg-image {
         background-size: 800px;
