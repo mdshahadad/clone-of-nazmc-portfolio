@@ -4,13 +4,13 @@ import './Consulting.css'
 
 const ConsultingBanner = () => {
     return (
-        <section className="2xl:mx-96 xl:mx-24 lg:py-20 py-12 lg:pt-36 lg:mx-4 mx-4">
-            <div className="lg:flex items-center bg-slate-200 rounded-xl lg:px-10 px-4 relative py-12 h-[750px]">
+        <section className="2xl:mx-96 xl:mx-24 xl:mt-16 lg:py-20 py-12 lg:mx-4 mx-4">
+            <div className="lg:flex items-center bg-slate-200 rounded-xl lg:px-10 px-4 relative py-12 lg:h-[400px] h-[750px]">
                 <div className="xl:w-7/12 lg:w-3/5 lg:space-y-8 space-y-5">
                     <h4 className="text-2xl">Hi There</h4>
                     <h2 className="xl:text-5xl lg:text-4xl text-2xl font-bold">I am Shahadad Hossain, Your <span className="text-red-500">Web Developer</span></h2>
                     <p className="lg:text-xl text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque delectus eligendi optio ex quas deserunt.</p>
-                    <div className="lg:flex flex flex-col gap-4 items-center">
+                    <div className="lg:flex lg:flex-row flex flex-col gap-4 items-center">
                         <Link className="w-full">
                             <button className="bg-[#202839] text-white font-semibold lg:text-lg text-sm xl:px-10 lg:px-5 px-1 py-4 xl:py-5 lg:py-3 border-[#202839] border-[1px] hover:bg-[#ed2849] hover:border-[#ed2849] transition-all duration-500 w-full" style={{ borderRadius: '10px 0px 10px 10px' }}>
                                 Book A Meeting Today

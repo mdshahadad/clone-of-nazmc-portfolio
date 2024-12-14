@@ -2,8 +2,8 @@ import './MeetSection.css'
 
 const MeetSection = () => {
     return (
-        <section className='meet-image lg:my-16 my-10 h-[1200px] relative'>
-            <div className='lg:px-96'>
+        <section className='meet-image lg:my-16 my-10 xl:h-[1080px] lg:h-[1000px] relative'>
+            <div className='2xl:px-96 xl:px-40 lg:px-4'>
                 <div className="flex justify-center mb-8">
                     <h2 className="text-[#242f3e] font-bold lg:text-5xl text-2xl text-center lg:my-20 my-10">Meet <span className='text-red-500'>Shahadad</span> Hossain - </h2>
                 </div>
@@ -13,13 +13,13 @@ const MeetSection = () => {
                             <img src="https://nazmc.com/wp-content/uploads/2024/07/01.svg" alt="" />
                             <p className='flex-wrap lg:w-96 w-[320px] lg:text-lg text-sm'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet tempora eaque quae, aut beatae temporibus, <strong>veritatis dignissimos</strong> fugit rerum unde facilis impedit, tempore fugiat modi sapiente. Ea illo libero odio.</p>
                         </div>
-                        <div className='bg-white lg:px-14 lg:py-8 py-4 absolute lg:left-[550px] lg:mt-24 mt-12 left-10 px-4'>
+                        <div className='bg-white lg:px-14 lg:py-8 py-4 absolute xl:left-[240px] lg:left-32 lg:mt-24 mt-12 left-10 px-4'>
                             <img src="https://nazmc.com/wp-content/uploads/2024/07/02.svg" alt="" />
                             <p className='flex-wrap lg:w-96 lg:text-lg text-sm'>Lorem ipsum <strong>dolor sit amet, consectetur adipisicing</strong> elit. Eveniet tempora eaque quae, aut beatae temporibus, veritatis dignissimos fugit rerum unde facilis impedit, tempore fugiat modi sapiente. Ea illo libero odio.</p>
                         </div>
                     </div>
                     <div className='lg:block flex justify-center'>
-                        <img className='bg-amber-500 rounded-full w-80 h-80 lg:w-[700px] lg:mt-0 mt-80' src="https://i.postimg.cc/xdDSkvJ5/Banner-Img-without-bg-2.png" alt="" />
+                        <img className='bg-amber-500 rounded-full w-80 h-80 lg:w-[700px] xl:h-[700px] lg:h-[600px] lg:mt-0 mt-80' src="https://i.postimg.cc/xdDSkvJ5/Banner-Img-without-bg-2.png" alt="" />
                     </div>
                 </div>
 

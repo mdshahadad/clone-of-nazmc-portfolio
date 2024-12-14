@@ -1,11 +1,11 @@
-import { FaClock, FaMoneyBillWave } from 'react-icons/fa';
+import { FaMoneyBillWave } from 'react-icons/fa';
 import './Marketing.css'
 import { PiClockCountdownFill } from 'react-icons/pi';
 import { Link } from 'react-router';
 
 const MarketingAudit = () => {
     return (
-        <section className='w-[60%] mx-auto'>
+        <section className='2xl:w-[60%] lg:w-[90%] mx-auto'>
             <section className='marketing-banner h-[780px]'>
                 <div className='flex justify-center pt-56 gap-8'>
                     <div>

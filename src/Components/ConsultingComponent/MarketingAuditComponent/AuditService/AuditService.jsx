@@ -7,7 +7,7 @@ import { Link } from 'react-router';
 const AuditService = () => {
     return (
         <div className='pt-40 relative'>
-            <section className='w-[60%] mx-auto'>
+            <section className='2xl:w-[60%] xl:w-[80%] lg:w-[90%] mx-auto'>
                 <div className='audit-bg-image h-[1720px] border-2 border-[#202839] rounded-lg'>
                     <div className='flex justify-center'>
                         <img className='absolute top-20 scale-90 bg-white px-8' src="https://nazmc.com/wp-content/uploads/2024/11/marketing-audit-450x196.webp" alt="" />

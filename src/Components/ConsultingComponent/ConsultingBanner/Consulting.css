@@ -40,9 +40,21 @@
     }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 375px) {
+@media only screen and (min-width: 376px) and (max-width: 425px) {
     .trusted-bg-image {
         background-size: 800px 400px;
+        background-position: -180px 40px;
+    }
+
+    .consulting-bg {
+        background-size: 950px;
+        background-position: 20px 50px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .trusted-bg-image {
+        background-size: 800px;
         background-position: -180px 40px;
     }
 

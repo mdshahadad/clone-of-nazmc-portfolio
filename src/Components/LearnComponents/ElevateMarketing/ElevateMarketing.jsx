@@ -20,7 +20,7 @@ const ElevateMarketing = () => {
                         </Link>
                     </div>
                     <div className="lg:ml-20 xl:w-3/6 lg:w-3/4 w-full lg:pt-0 pt-10">
-                        <img className="w-3/4" src="https://nazmc.com/wp-content/uploads/2024/10/BMT-249tk-650x714.webp" alt="" />
+                        <img className="w-5/6" src="https://nazmc.com/wp-content/uploads/2024/10/BMT-249tk-650x714.webp" alt="" />
                     </div>
                 </div>
             </div>

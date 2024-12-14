@@ -2,7 +2,7 @@ import '../ConsultingBanner/Consulting.css';
 
 const ConsultingImage = () => {
     return (
-        <section className='lg:py-20 2xl:px-28 xl:px-8 lg:px-4 mx-4'>
+        <section className='lg:py-10 2xl:px-28 xl:px-8 lg:px-4 mx-4'>
             <section className="consulting-bg lg:h-[900px]">
                 <div className='flex justify-center'>
                     <div className='lg:w-[650px] bg-white shadow-lg lg:px-14 px-4 py-16 border-t-[5px] border-t-red-500 rounded-md space-y-4'>

@@ -198,7 +198,7 @@ const Navbar = () => {
                             </Link>
                         </div>
                         <div>
-                            <Link to={"/consulting"}>
+                            <Link to={"/login"}>
                                 <div className="flex flex-col justify-center items-center">
                                     <FiLogIn className="text-3xl cursor-pointer" />
                                     <p>Login</p>

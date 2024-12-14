@@ -4,7 +4,7 @@ const TrustedCompany = () => {
     return (
         <section className='lg:py-20 py-12'>
             <div className='flex justify-center'>
-                <div className='trusted-bg-image lg:h-80 lg:h-[600px]'>
+                <div className='trusted-bg-image h-[400px] lg:h-[400px]'>
                     <div className='flex justify-center'>
                         <h2 className='lg:text-4xl text-2xl font-bold text-[#202839] text-center lg:w-2/3'>Trusted By Founders At 200+ Companies As Their Part-Time CMO, Including</h2>
                     </div>

@@ -23,9 +23,9 @@ const Home = () => {
                 <LearnHome></LearnHome>
             </div>
             <MeetSection></MeetSection>
-            {/* <SuccessStories></SuccessStories>
+            <SuccessStories></SuccessStories>
             <WhyChoose></WhyChoose>
-            <Contact></Contact> */}
+            <Contact></Contact>
         </section>
     );
 };
