@@ -4,6 +4,7 @@ import LearnHome from "../../HomeComponent/Home/LearnHome/LearnHome";
 import NewspaperShow from "../../HomeComponent/Home/NewspaperShow/NewspaperShow";
 import LearnBanner from "../LearnBanner/LearnBanner";
 import ElevateMarketing from "../ElevateMarketing/ElevateMarketing";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Learn = () => {
     return (
@@ -27,6 +28,7 @@ const Learn = () => {
                 <LearnCard></LearnCard>
             </div>
             <ElevateMarketing></ElevateMarketing>
+            <Testimonials></Testimonials>
         </section>
     );
 };
