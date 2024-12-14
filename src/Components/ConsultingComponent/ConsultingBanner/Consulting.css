@@ -2,3 +2,9 @@
     background: rgb(0,0,0);
     background: linear-gradient(41deg, rgba(0,0,0,1) 0%, rgba(237,40,73,1) 100%);
 }
+
+.trusted-bg-image{
+    background-image: url('https://nazmc.com/wp-content/uploads/2023/12/globe.svg');
+    background-repeat: no-repeat;
+    background-size: 1250px;
+}

@@ -5,7 +5,7 @@ import './Consulting.css'
 const ConsultingBanner = () => {
     return (
         <section className="mx-96 py-20">
-            <div className="flex items-center bg-slate-200 rounded-xl px-10 relative py-10">
+            <div className="flex items-center bg-slate-200 rounded-xl px-10 relative py-12">
                 <div className="w-7/12 space-y-8">
                     <h4 className="text-2xl">Hi There</h4>
                     <h2 className="text-5xl font-bold">I am Shahadad Hossain, Your <span className="text-red-500">Web Developer</span> and Part Time Freelancer</h2>
