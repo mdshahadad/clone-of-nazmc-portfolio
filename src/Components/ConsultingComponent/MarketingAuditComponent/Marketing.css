@@ -1,0 +1,13 @@
+.marketing-banner{
+    background-image: url("https://nazmc.com/wp-content/uploads/2024/11/Circle-bg.webp");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    margin-top: -80px;
+    z-index: 0;
+}
+
+.audit-bg-image{
+    background-image: url("https://nazmc.com/wp-content/uploads/2024/08/bg-navy-blue.svg");
+    background-repeat: no-repeat;
+    background-size: 1280px;
+}

@@ -8,6 +8,8 @@ import Consulting from "../../ConsultingComponent/Consulting/Consulting";
 import About from "../../AboutComponent/About/About";
 import Contact from "../../ContactComponent/Contact/Contact";
 import ClientSuccess from "../../ClientSuccess/ClientSuccess";
+import MarketingAudit from "../../ConsultingComponent/MarketingAuditComponent/MarketingAudit";
+import Marketing from "../../ConsultingComponent/MarketingAuditComponent/Marketing/Marketing";
 
 const router = createBrowserRouter([
     {
@@ -45,6 +47,10 @@ const router = createBrowserRouter([
             {
                 path: "/clientSuccess",
                 element: <ClientSuccess></ClientSuccess>
+            },
+            {
+                path: '/marketing-audit-service',
+                element: <Marketing></Marketing>
             }
 
         ]

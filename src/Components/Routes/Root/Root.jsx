@@ -10,7 +10,9 @@ const Root = () => {
                 <title>Shahadad - Home</title>
             </Helmet>
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className="pt-16">
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </section>
     );

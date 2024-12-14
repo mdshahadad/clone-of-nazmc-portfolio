@@ -19,7 +19,7 @@ const Navbar = () => {
             menu: "Consulting",
             icon: <IoIosArrowDown />,
             submenu: [
-                { link: "/consulting/strategy", menu: "Marketing Audit and Strategy" },
+                { link: "/marketing-audit-service", menu: "Marketing Audit and Strategy" },
                 { link: "/consulting/operations", menu: "Marketing Advisor" },
                 { link: "/consulting/technology", menu: "Team Building" },
                 { link: "/consulting/technology", menu: "Part Time CMO" },
@@ -49,8 +49,8 @@ const Navbar = () => {
     const navbarClasses = ({ isActive }) => isActive ? "text-white" : ""
 
     return (
-        <nav className="py-4 lg:px-8 shadow-md">
-            <div className="bg-base-100 xl:px-24">
+        <nav className="py-4 lg:px-8 shadow-md fixed w-full top-0 bg-base-100 z-10">
+            <div className="xl:px-24">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
 
