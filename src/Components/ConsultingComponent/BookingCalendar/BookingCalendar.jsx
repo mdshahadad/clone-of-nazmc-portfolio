@@ -2,10 +2,10 @@ import { Link } from "react-router";
 
 const BookingCalendar = () => {
     return (
-        <section className="mx-96 space-y-16 py-20">
-            <div className="flex w-3/5 mx-auto">
+        <section className="2xl:mx-96 space-y-16 py-20">
+            <div className="flex xl:w-3/5 xl:mx-auto lg:mx-8">
                 <div className="text-center space-y-5">
-                    <h2 className="font-bold text-4xl">Limited Availability: I Can Serve <br /> <span className="text-[#ed2849]">Only 7 Clients A Month</span></h2>
+                    <h2 className="font-bold text-4xl">Limited Availability: I Can Serve <br className="xl:block lg:hidden" /> <span className="text-[#ed2849]">Only 7 Clients A Month!</span></h2>
                     <p className="text-xl leading-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis odit officiis quam illum eaque qui eos ratione cum amet hic?</p>
                 </div>
             </div>

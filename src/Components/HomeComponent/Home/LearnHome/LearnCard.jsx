@@ -6,7 +6,7 @@ const LearnCard = () => {
     return (
         <section className='2xl:px-80 xl:px-12 px-5'>
             <div className="grid grid-cols-3 gap-8">
-                <div className='bg-white rounded-lg w-[380px] shadow-md'>
+                <div className='bg-white rounded-lg xl:w-[380px] shadow-md'>
                     <img className='rounded-lg xl:h-52 lg:h-40 w-[380px]' src="https://nazmc.com/wp-content/uploads/2024/08/DM-Strategy-450x288.webp" alt="" />
                     <h4 className='text-sm font-medium px-4'>Premium Course</h4>
 
@@ -41,7 +41,7 @@ const LearnCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white  shadow-md rounded-lg w-[380px]'>
+                <div className='bg-white  shadow-md rounded-lg xl:w-[380px]'>
                     <img className='rounded-lg xl:h-52 lg:h-40 w-[380px]' src="https://nazmc.com/wp-content/uploads/2024/08/Build-A-Marketing-Team-Book-450x287.webp" alt="" />
                     <h4 className='text-sm font-medium px-4'>Premium Course</h4>
 
@@ -76,7 +76,7 @@ const LearnCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white  shadow-md rounded-lg w-[380px]'>
+                <div className='bg-white  shadow-md rounded-lg xl:w-[380px]'>
                     <img className='rounded-lg xl:h-52 lg:h-40 w-[380px]' src="https://nazmc.com/wp-content/uploads/2024/08/DM-Strategy-450x288.webp" alt="" />
                     <h4 className='text-sm font-medium px-4'>Premium Course</h4>
 
@@ -111,7 +111,7 @@ const LearnCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white  shadow-md rounded-lg w-[380px]'>
+                <div className='bg-white  shadow-md rounded-lg xl:w-[380px]'>
                     <img className='rounded-lg xl:h-52 lg:h-40 w-[380px]' src="https://nazmc.com/wp-content/uploads/2024/08/Build-A-Marketing-Team-Book-450x287.webp" alt="" />
                     <h4 className='text-sm font-medium px-4'>Premium Course</h4>
 
@@ -146,7 +146,7 @@ const LearnCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white  shadow-md rounded-lg w-[380px]'>
+                <div className='bg-white  shadow-md rounded-lg xl:w-[380px]'>
                     <img className='rounded-lg xl:h-52 lg:h-40 w-[380px]' src="https://nazmc.com/wp-content/uploads/2024/08/DM-Strategy-450x288.webp" alt="" />
                     <h4 className='text-sm font-medium px-4'>Premium Course</h4>
 
@@ -181,7 +181,7 @@ const LearnCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white  shadow-md rounded-lg w-[380px]'>
+                <div className='bg-white  shadow-md rounded-lg xl:w-[380px]'>
                     <img className='rounded-lg xl:h-52 lg:h-40 w-[380px]' src="https://nazmc.com/wp-content/uploads/2024/08/Build-A-Marketing-Team-Book-450x287.webp" alt="" />
                     <h4 className='text-sm font-medium px-4'>Premium Course</h4>
 
@@ -216,7 +216,7 @@ const LearnCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white  shadow-md rounded-lg w-[380px]'>
+                <div className='bg-white  shadow-md rounded-lg xl:w-[380px]'>
                     <img className='rounded-lg xl:h-52 lg:h-40 w-[380px]' src="https://nazmc.com/wp-content/uploads/2024/08/DM-Strategy-450x288.webp" alt="" />
                     <h4 className='text-sm font-medium px-4'>Premium Course</h4>
 
@@ -251,7 +251,7 @@ const LearnCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white  shadow-md rounded-lg w-[380px]'>
+                <div className='bg-white  shadow-md rounded-lg xl:w-[380px]'>
                     <img className='rounded-lg xl:h-52 lg:h-40 w-[380px]' src="https://nazmc.com/wp-content/uploads/2024/08/Build-A-Marketing-Team-Book-450x287.webp" alt="" />
                     <h4 className='text-sm font-medium px-4'>Premium Course</h4>
 

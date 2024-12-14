@@ -1,16 +1,41 @@
-.consulting-image{
-    background: rgb(0,0,0);
-    background: linear-gradient(41deg, rgba(0,0,0,1) 0%, rgba(237,40,73,1) 100%);
+.consulting-image {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(41deg, rgba(0, 0, 0, 1) 0%, rgba(237, 40, 73, 1) 100%);
 }
 
-.trusted-bg-image{
+.trusted-bg-image {
     background-image: url('https://nazmc.com/wp-content/uploads/2023/12/globe.svg');
     background-repeat: no-repeat;
     background-size: 1250px;
+    background-position: 80px 0px;
 }
 
-.consulting-bg{
+.consulting-bg {
     background-image: url('https://nazmc.com/wp-content/uploads/2024/10/section-bg-navy-blue.webp');
     background-repeat: no-repeat;
-    background-size: 1850px;
+    background-size: 1670px;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .trusted-bg-image {
+        background-size: 1000px;
+        background-position: 170px 0px;
+    }
+
+    .consulting-bg {
+        background-size: 1300px;
+        background-position: 40px 80px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .trusted-bg-image {
+        background-size: 900px;
+        background-position: 50px 80px;
+    }
+
+    .consulting-bg {
+        background-size: 950px;
+        background-position: 20px 50px;
+    }
 }

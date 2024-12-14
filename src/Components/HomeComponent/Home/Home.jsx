@@ -1,4 +1,3 @@
-import Navbar from "../Navbar/Navbar";
 import Banner from "./Banner/Banner";
 import ConsultingCourse from "./ConsultingCourse/ConsultingCourse";
 import Contact from "./Contact/Contact";

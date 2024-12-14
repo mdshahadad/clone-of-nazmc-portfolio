@@ -2,10 +2,10 @@ import '../ConsultingBanner/Consulting.css';
 
 const ConsultingImage = () => {
     return (
-        <section className='py-20 px-28'>
+        <section className='py-20 2xl:px-28 xl:px-8 lg:px-4'>
             <section className="consulting-bg h-[900px]">
                 <div className='flex justify-center'>
-                    <div className='w-[700px] bg-white shadow-lg px-14 py-16 border-t-[5px] border-t-red-500 rounded-md space-y-4'>
+                    <div className='w-[650px] bg-white shadow-lg px-14 py-16 border-t-[5px] border-t-red-500 rounded-md space-y-4'>
                         <h2 className='text-4xl font-bold text-[#202839]'>That's Where I Come In. A Part-Time CMO</h2>
                         <p className='text-lg'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, magnam!</p>
                         <h4 className='text-2xl font-semibold'><span className='text-[#ed2849]'>Consulting </span>Is More Than Giving Advice</h4>

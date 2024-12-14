@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonials = () => {
     return (
-        <section className='py-20'>
+        <section className='py-20 lg:px-8'>
 
             <div className='flex justify-center'>
                 <div>

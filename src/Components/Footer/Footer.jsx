@@ -5,13 +5,13 @@ import { Link } from "react-router";
 const Footer = () => {
     return (
         <footer className="bg-[#202839] text-white">
-            <section className="py-16">
-                <section className="flex justify-evenly items-start px-80">
+            <section className="py-16 lg:px-10">
+                <section className="flex 2xl:justify-evenly lg:justify-between items-start 2xl:px-80 xl:px-52">
                     <div>
-                        <img className="bg-amber-600 rounded-3xl w-72 h-72" src="https://i.postimg.cc/xdDSkvJ5/Banner-Img-without-bg-2.png" alt="" />
+                        <img className="bg-amber-600 rounded-3xl 2xl:w-72 lg:w-60 lg:h-60 h-72" src="https://i.postimg.cc/xdDSkvJ5/Banner-Img-without-bg-2.png" alt="" />
                         <div>
                             <h4 className="text-xl font-semibold py-2">Shahadad Hossain</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur <br /> adipisicing elit. Iusto, doloribus?</p>
+                            <p>Lorem ipsum dolor, sit amet <br className="lg:block xl:hidden" /> consectetur <br className="xl:block lg:hidden" /> adipisicing elit. Iusto,</p>
                         </div>
                     </div>
                     <div>
@@ -57,7 +57,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-                <section className="flex ml-[440px]">
+                <section className="flex 2xl:mx-[440px] xl:mx-52 lg:mx-12">
                     <div>
                         <img className="w-3/4 py-10" src="https://nazmc.com/wp-content/uploads/2023/12/SSLCOMMERZ-Pay-With-logo-All-Size_Aug-21-05-1536x55.png" alt="" />
                         <hr />

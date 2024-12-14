@@ -4,9 +4,9 @@ import { Link } from "react-router";
 const ElevateMarketing = () => {
     return (
         <section>
-            <div className="flex justify-center px-72">
+            <div className="flex justify-center 2xl:px-72 px-8">
                 <div className="flex justify-center items-center">
-                    <div className="w-2/5 space-y-8">
+                    <div className="xl:w-2/5 lg:w-4/5 xl:space-y-8 lg:space-y-5">
                         <img src="https://nazmc.com/wp-content/uploads/2024/10/elevate-650x89.webp" alt="" />
                         <p className="text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ut et, quibusdam commodi quae at! adipisicing elit. A ut et, quibusdam commodi quae at!</p>
                         <div className="flex items-center">
@@ -19,7 +19,7 @@ const ElevateMarketing = () => {
                             </button>
                         </Link>
                     </div>
-                    <div className="ml-20 w-3/6">
+                    <div className="ml-20 xl:w-3/6 lg:w-3/4">
                         <img className="w-3/4" src="https://nazmc.com/wp-content/uploads/2024/10/BMT-249tk-650x714.webp" alt="" />
                     </div>
                 </div>

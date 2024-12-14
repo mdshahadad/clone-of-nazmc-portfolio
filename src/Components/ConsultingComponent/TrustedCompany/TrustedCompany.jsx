@@ -8,7 +8,7 @@ const TrustedCompany = () => {
                     <div className='flex justify-center'>
                         <h2 className='text-4xl font-bold text-[#202839] text-center w-2/3'>Trusted By Founders At 200+ Companies As Their Part-Time CMO, Including</h2>
                     </div>
-                    <div className='grid grid-cols-4 px-16'>
+                    <div className='grid grid-cols-4 xl:px-16'>
                         <div>
                             <img className='w-[300px] h-[280px] scale-75' src="https://nazmc.com/wp-content/uploads/2023/12/pipeline-signals.webp" alt="" />
                         </div>

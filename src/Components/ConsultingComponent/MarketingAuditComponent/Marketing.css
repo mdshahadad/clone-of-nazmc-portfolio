@@ -1,4 +1,4 @@
-.marketing-banner{
+.marketing-banner {
     background-image: url("https://nazmc.com/wp-content/uploads/2024/11/Circle-bg.webp");
     background-repeat: no-repeat;
     background-size: 1200px;
@@ -6,8 +6,23 @@
     z-index: 0;
 }
 
-.audit-bg-image{
+.audit-bg-image {
     background-image: url("https://nazmc.com/wp-content/uploads/2024/08/bg-navy-blue.svg");
     background-repeat: no-repeat;
     background-size: 1280px;
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .bg-image {
+        background-size: 1440px;
+        background-position: 0px 80px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .bg-image {
+        background-size: 1020px;
+        background-position: 0px 95px;
+    }
 }
