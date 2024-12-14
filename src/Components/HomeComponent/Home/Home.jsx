@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <section>
             <Banner></Banner>
-            <WelcomeNote></WelcomeNote>
+            {/* <WelcomeNote></WelcomeNote>
             <WaysTohelp></WaysTohelp>
             <NewspaperShow></NewspaperShow>
             <ShowedUp></ShowedUp>
@@ -25,7 +25,7 @@ const Home = () => {
             <MeetSection></MeetSection>
             <SuccessStories></SuccessStories>
             <WhyChoose></WhyChoose>
-            <Contact></Contact>
+            <Contact></Contact> */}
         </section>
     );
 };

@@ -5,16 +5,23 @@
 }
 
 
-@media only screen and (min-width: 1025px) and (max-width: 1440px){
-    .bg-image{
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .bg-image {
         background-size: 1440px;
         background-position: 0px 80px;
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px){
-    .bg-image{
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .bg-image {
         background-size: 1020px;
         background-position: 0px 95px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .bg-image {
+        background-size: 800px;
+        background-position: -400px 150px;
     }
 }
