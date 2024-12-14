@@ -9,7 +9,6 @@ const Navbar = () => {
 
     const handleShoppingCart = () => {
         setOpenClose(!openClose);
-        console.log('clicked')
     }
 
     const navbar = [
@@ -52,12 +51,14 @@ const Navbar = () => {
             <div className="xl:px-24 relative">
 
                 {/* Shopping Cart Drawer */}
-                <div className={`${openClose === true ? 'top-0 -left-7 px-4 w-80  transition-all duration-700' : "top-0 -left-96  transition-all duration-700"} bg-white absolute h-screen  transition-all duration-700 space-y-4`}>
-                    <div className="flex justify-end">
-                        <button
-                            onClick={() => setOpenClose(!openClose)}><IoMdCloseCircle className="text-4xl mr-4" /></button>
+                <div className={`${openClose === true ? "w-full" : "-left-80"} absolute -top-4 -left-8 bg-black h-screen bg-opacity-30`}>
+                    <div className={`${openClose === true ? 'w-80 transition-all duration-700' : " transition-all duration-700"} bg-white  transition-all duration-700 space-y-4 h-screen px-4`}>
+                        <div className="flex justify-end">
+                            <button
+                                onClick={() => setOpenClose(!openClose)}><IoMdCloseCircle className="text-4xl mr-4" /></button>
+                        </div>
+                        <p>No Products available</p>
                     </div>
-                    <p>No Products available</p>
                 </div>
 
                 <div className="flex justify-between items-center">
